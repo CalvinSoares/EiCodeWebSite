@@ -1,18 +1,6 @@
-import {  useEffect } from 'react';
 import logo from '../assets/eicode.png';
 
 export default function NavBar() {
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsSmallScreen(window.innerWidth < 998);
-    };
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   // function handleMenu() {
   //   console.log('click');
@@ -26,7 +14,7 @@ export default function NavBar() {
   }
 
   return (
-      <div className="bg-[#1F1F1F] scroll-smooth w-screen h-20">
+      <div className="bg-[#1F1F1F] scroll-smooth h-20">
         <header className="flex justify-center items-center h-36">
           <div className=" flex items-center justify-center h-24 m-auto ">
             <a

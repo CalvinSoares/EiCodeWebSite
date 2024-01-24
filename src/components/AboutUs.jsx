@@ -1,7 +1,7 @@
 
 export default function AboutUs() {
   return (
-    <div className='bg-[#1F1F1F] '>
+    <div className='bg-[#1F1F1F]' id="AboutUs">
         <div className=' h-screen flex justify-center items-center flex-col '>
             <div className=''>
                 <h1 className='text-7xl font-bold pb-4'><span className='text-[#6A39D1]'>Ei</span>Code</h1>      
